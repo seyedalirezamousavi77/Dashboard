@@ -33,7 +33,8 @@ a{
 .container{
     width: 80%;
     margin: 0 0 0 15px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
 }
 .box-top{
     display: flex;
@@ -51,10 +52,10 @@ a{
     color: #aaa;
 }
 .box-top-web p{
-    padding: 10px 0;
+    padding: 8px 0;
 }
 .box-top-web h4{
-    font-size: 13px;
+    font-size: 12px;
     color: #222;
 }
 .box-top-web .leftbox{
@@ -74,5 +75,48 @@ a{
 }
 .box-top-web .leftbox img{
     width: 35px;
-    margin: 19px 8px;
+    margin: 24px 8px;
+}
+.box-top-web:nth-child(4) .leftbox img{
+    width: 30px;
+    margin-right: 11px;
+}
+.center-web{
+    display: flex;
+    justify-content: flex-start;
+}
+.box-edit{
+    width: 50%;
+    height: 250px;
+    border-radius: 4px;
+    margin-right: 15px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 25px;
+    color: white;
+    font-size: 1rem;
+}
+.box-summary{
+    width: 40%;
+    border-radius: 4px;
+    margin-right: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    color: rebeccapurple;
+    font-size: 1rem;
+}
+.box-summary select{
+    height: 25px;
+    padding: 5px;
+    color: #555;
+    font-weight: 700;
+    font-size: 10px;
+    font-family: 'my-font';
+    outline: none;
+    border-radius: 4px;
+    box-shadow: -1px 1px 0px 0px #eee;
+    border-color: #ddd;
 }
