@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'my-font';
+    src : url('fonts/Shabnam.woff') format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'my-font';
+    font-size: 13px;
+    direction: rtl;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.right-side{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    width: 18%;
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 0 0 15px;
+    border: 1px solid red;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+}
+.box-top-web{
+    width: 300px;
+    margin: 15px 15px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 9px;
+    padding: 0 20px 0 0;
+    color: #aaa;
+}
+.box-top-web p{
+    padding: 10px 0;
+}
+.box-top-web h4{
+    font-size: 13px;
+    color: #222;
+}
+.box-top-web .leftbox{
+    height: 100%;
+    width: 50px;
+    border-radius: 4px 0 0 4px;
+    background-color: rebeccapurple;
+}
+.box-top-web:nth-child(2) .leftbox{
+    background-color: red;
+}
+.box-top-web:nth-child(3) .leftbox{
+    background-color: wheat;
+}
+.box-top-web:nth-child(4) .leftbox{
+    background-color: saddlebrown;
+}
+.box-top-web .leftbox img{
+    width: 35px;
+    margin: 19px 8px;
+}
