@@ -55,42 +55,54 @@ a{
     padding: 8px 0;
 }
 .box-top-web h4{
-    font-size: 12px;
+    font-size: 14px;
     color: #222;
+}
+.box-top-web span{
+    font-size: 12px;
+    color: #6355e8;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.box-top-web:nth-child(3) span{
+    color: #10cd8d;
+}
+.box-top-web:nth-child(4) span{
+    color: #ea605e;
 }
 .box-top-web .leftbox{
     height: 100%;
     width: 50px;
     border-radius: 4px 0 0 4px;
-    background-color: rebeccapurple;
+    background-image: linear-gradient(to bottom , #8160e5, #5e72e3);
 }
 .box-top-web:nth-child(2) .leftbox{
-    background-color: red;
+    background-image: linear-gradient(to bottom , #fdc53a, #f19c1b);
 }
 .box-top-web:nth-child(3) .leftbox{
-    background-color: wheat;
+    background-image: linear-gradient(to bottom , #f3477f, #ec454f);
 }
 .box-top-web:nth-child(4) .leftbox{
-    background-color: saddlebrown;
+    background-image: linear-gradient(to bottom , #21c6f6, #607dff);
 }
 .box-top-web .leftbox img{
     width: 35px;
     margin: 24px 8px;
 }
 .box-top-web:nth-child(4) .leftbox img{
-    width: 30px;
-    margin-right: 11px;
+    width: 25px;
+    margin-right: 13px;
 }
 .center-web{
     display: flex;
     justify-content: flex-start;
 }
 .box-edit{
-    width: 50%;
+    width: 55%;
     height: 250px;
     border-radius: 4px;
     margin-right: 15px;
-    background-color: rebeccapurple;
+    background-image: linear-gradient(to right , #8d5fe6, #6564e4);
     display: flex;
     justify-content: flex-end;
     padding: 15px 25px;
@@ -98,25 +110,89 @@ a{
     font-size: 1rem;
 }
 .box-summary{
-    width: 40%;
+    width: 35%;
     border-radius: 4px;
     margin-right: 15px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 20px 35px;
-    color: rebeccapurple;
+    color: #222;
     font-size: 1rem;
+}
+.box-summary a{
+    height: 25px;
+    font-size: .8rem;
+    color: #222;
+    border-bottom: 1.5px solid rebeccapurple;
 }
 .box-summary select{
     height: 25px;
     padding: 5px;
-    color: #555;
+    color: #888;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 9px;
     font-family: 'my-font';
     outline: none;
     border-radius: 4px;
     box-shadow: -1px 1px 0px 0px #eee;
     border-color: #ddd;
+}
+.bottom-web{
+    display: flex;
+    justify-content: flex-start;
+}
+.box-tickets{
+    width: 55%;
+    height: 150px;
+    border-radius: 4px;
+    margin: 15px;
+    margin-left: 0 !important;
+    background-color: white;
+    padding: 15px 25px;
+    color: #222;
+    font-size: .7rem;
+}
+.box-tickets ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.box-tickets a{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    color: #aaa !important;
+}
+.box-tickets a button{
+    color: #aaa !important;
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 1px;
+    font-size: 10px;
+    border: transparent;
+}
+.box-tickets .active{
+    color: #222 !important;
+    border-bottom: 1.5px solid rebeccapurple;
+}
+.box-tickets .active button{
+    color: #222 !important;
+}
+.box-mail{
+    width: 35%;
+    border-radius: 4px;
+    margin: 15px;
+    margin-left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 35px;
+    color: #222;
+    font-size: 1rem;
+}
+.box-mail a{
+    font-size: .8rem;
+    position: absolute;
+    color: #222;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rebeccapurple;
 }
