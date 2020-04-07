@@ -124,7 +124,6 @@ a{
     border-radius: 4px;
     margin-right: 15px;
     background-color: white;
-    padding: 20px 35px;
     color: #222;
     font-size: 1rem;
 }
@@ -156,12 +155,10 @@ a{
 }
 .box-tickets{
     width: 58%;
-    height: 12.5rem;
     border-radius: 4px;
     margin: 15px;
     margin-left: 0 !important;
     background-color: white;
-    padding: 15px 25px;
     color: #222;
     font-size: .7rem;
 }
@@ -205,13 +202,75 @@ a{
 .box-tickets .active button{
     color: #222 !important;
 }
+.title-tickets{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+}
+.title-tickets h4{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.about-ticket{
+    border-bottom: 1px solid #f1f1f1;
+}
+.about-ticket .col-4 img{
+    height: 1.5rem;
+    margin: .25rem .7rem;
+}
+.about-ticket .title-tic h3{
+    font-size: .6rem;
+    font-weight: 700;
+    color: #555;
+}
+.about-ticket .title-tic .label-tic p{
+    font-size: .5rem;
+    color: #aaa;
+    font-weight: 700;
+}
+.about-ticket .title-tic .label-tic span{
+    width: .8rem;
+    height: .8rem;
+    margin: 0 0 0 .2rem ;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.about-ticket .title-tic .label-tic a{
+    font-size: .5rem;
+    color:  #6355e8 !important;
+    font-weight: 700;
+}
+.about-ticket .create-tic img , .about-ticket .response-tic img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.about-ticket .create-tic .user-tic h5 ,.about-ticket .response-tic .response-user-tic h5{
+    font-size: .6rem;
+    font-weight: 700;
+    color: #888;
+}
+.about-ticket .create-tic .user-tic p , .about-ticket .response-tic .response-user-tic p{
+    font-size: .4rem;
+    color: #aaa;
+}
+.active-tic {
+    box-shadow: 0px 1px 15px 0px #ccc;
+}
+.priority-tic{
+    display: flex;
+    justify-content: flex-start;
+}
+.priority-tic img{
+    width: .666rem;
+    height: 1rem;
+}
 .box-mail{
     width: 40%;
     border-radius: 4px;
     margin: 15px;
     margin-left: 0;
     background-color: white;
-    padding: 20px 35px;
     color: #222;
     font-size: 1rem;
 }
@@ -236,6 +295,22 @@ a{
     border-radius: 4px;
     box-shadow: -1px 1px 0px 0px #eee;
     border-color: #ddd;
+}
+.box-mail .content-mail img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;  
+}
+.box-mail .content-mail h4{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.box-mail .content-mail h5{
+    font-size: .65rem;
+    font-weight: 700;
+}
+.box-mail .content-mail p{
+    font-size: .6rem;
 }
 .right-side{
     position: fixed;
@@ -270,8 +345,8 @@ a{
     margin: 30px;
 }
 .user img{
-    width: 40px;
-    height: 40px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     margin-left: 15px;
 }
