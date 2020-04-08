@@ -326,10 +326,77 @@ a{
     font-size: .6rem;
     color: #999;
 }
-
-
-
-
+.box-news-style{
+    width: 50% !important;
+    border-radius: 4px;
+    background-color: white;
+    color: #222;
+    font-size: .7rem;
+}
+.box-news-style .active{
+    color: #222 !important;
+    border-bottom: 1.5px solid rebeccapurple;
+}
+.box-news-style a{
+    margin-left: 15px;
+    color: #aaa !important;
+}
+.title-news{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+}
+.title-news h4{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.about-news{
+    border-bottom: 1px solid #f1f1f1;
+}
+.about-news .col-4 img{
+    height: 1.5rem;
+    margin: .25rem .7rem;
+}
+.about-news .title-new h3{
+    font-size: .7rem;
+    font-weight: 700;
+    color: #555;
+}
+.about-news .title-new .label-new a{
+    font-size: .5rem;
+    color:  #6355e8 !important;
+    font-weight: 700;
+}
+.about-news .create-new img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.about-news .create-new .user-new h5{
+    font-size: .6rem;
+    font-weight: 700;
+    color: #555;
+}
+.about-news .create-new .user-new p{
+    margin-top: .8rem;
+    font-size: .55rem;
+    color: #888;
+}
+.system-new p{
+    color: #888;
+}
+.box-news select{
+    height: 25px;
+    padding: 5px;
+    color: #888;
+    font-weight: 700;
+    font-size: 9px;
+    font-family: 'my-font';
+    outline: none;
+    border-radius: 4px;
+    box-shadow: -1px 1px 0px 0px #eee;
+    border-color: #ddd;
+}
 
 
 
