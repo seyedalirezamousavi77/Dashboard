@@ -296,6 +296,9 @@ a{
     box-shadow: -1px 1px 0px 0px #eee;
     border-color: #ddd;
 }
+.box-mail .content-mail{
+    border-top:1px solid #ddd;
+}
 .box-mail .content-mail img{
     width: 3rem;
     height: 3rem;
@@ -304,14 +307,49 @@ a{
 .box-mail .content-mail h4{
     font-size: .7rem;
     font-weight: 700;
+    color: #666;
 }
 .box-mail .content-mail h5{
     font-size: .65rem;
     font-weight: 700;
+    color: #555;
+}
+.box-mail .content-mail span{
+    padding: .2rem;
+    background-color: red;
+    border-radius: .5rem;
+    margin-right: .1rem;
+    font-size: .5rem;
+    color: white;
 }
 .box-mail .content-mail p{
     font-size: .6rem;
+    color: #999;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .right-side{
     position: fixed;
     z-index: 1;
