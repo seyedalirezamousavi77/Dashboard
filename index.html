@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/all.css">
 </head>
 
-<body>
+<body onscroll="navbarScroll()">
     <div class="main">
         <div class="right-side">
             <div class="time">
@@ -76,7 +76,16 @@
             </ul>
         </div>
         <div class="left-side">
-            <div class="top-web">
+            <div id="my-navbar">
+                <div class="my-search">
+                    <i class="fas fa-search"></i><input type="text" placeholder="عبارت مورد نظر را جستجو کنید">
+                </div>
+                <div class="icons">
+                    <i class="fas fa-comment-alt"><span>۴</span></i>
+                    <i class="fas fa-bell"><span>۵</span></i>
+                </div>
+            </div>
+            <div class="top-web ml-3">
                 <ul class="box-top">
                     <li class="box-top-web">
                         <div class="rightbox">
@@ -120,7 +129,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="center-web">
+            <div class="center-web ml-3">
                 <div class="box-edit">
                     <i class="fas fa-edit"></i>
                 </div>
@@ -136,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom-web">
+            <div class="bottom-web ml-3">
                 <div class="box-tickets">
                     <ul class="m-4">
                         <div class="property-tickets">
@@ -385,7 +394,7 @@
                                     <h5>۲ ساعت پیش</h5>
                                 </div>
                                 <h4>گزارش کارکرد دورهمی آقای حسینی</h4>
-                                <p class="d-flex justify-content-start">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                <p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
                                     صنعت چاپ و با استفاده از طراحان گرافیک
                                     است.</p>
                             </div>
@@ -400,7 +409,7 @@
                                     <h5>۲ ساعت پیش</h5>
                                 </div>
                                 <h4>گزارش کارکرد دورهمی آقای حسینی</h4>
-                                <p class="d-flex justify-content-start">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                <p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
                                     صنعت چاپ و با استفاده از طراحان گرافیک
                                     است.</p>
                             </div>
@@ -415,7 +424,7 @@
                                     <h5>۲ ساعت پیش</h5>
                                 </div>
                                 <h4>گزارش کارکرد دورهمی آقای حسینی</h4>
-                                <p class="d-flex justify-content-start">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                                <p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
                                     صنعت چاپ و با استفاده از طراحان گرافیک
                                     است.</p>
                             </div>
@@ -423,7 +432,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box-news d-flex justify-content-start">
+            <div class="box-news ml-3 d-flex justify-content-start">
                 <div class="box-news-style  mt-0 px-0 mr-3 ml-3">
                     <ul class="p-4 mb-0 d-flex justify-content-between">
                         <div class="property-news d-flex justify-content-start">
@@ -732,8 +741,8 @@
 
             </div>
         </div>
-        <script src="" async defer></script>
+        
+        <script src="js/main.js" async defer></script>
 </body>
-
 
 </html>
